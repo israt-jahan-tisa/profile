@@ -1,0 +1,185 @@
+/* Global Css */
+*{
+    margin:0 ;
+    padding: 0;
+}
+.global-btn{
+    width: 100px;
+    height: 35px;
+    background-color: black;
+    color: white;
+
+}
+.global- section{
+    padding: 4rem 0;
+}
+ .global-heading{
+ font-size: 55px;
+ text-align: center;
+
+}
+
+.global-heading-p{
+    color: #787878;
+    text-align: center;
+    margin-bottom: 8px;
+
+}
+.grid-single-item p{
+    color: #787878;
+    
+}
+/* This is header  */
+header{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 4rem;
+    margin-right: 0px;
+    text-decoration: none;
+   
+    
+}
+.main-menu ul li {
+    display: inline;
+  
+}
+.ul-section{
+    list-style-type: none;
+    margin: 0;
+    padding: 20px 19px;
+    overflow: hidden;
+    background-color:black;
+   
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    
+      
+}
+.logo-size{
+    
+    width: 4rem;
+    
+
+}
+
+/* First section */
+.First-section{
+    background-image: url(./asset/cover.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 10rem 0;
+    text-align: center;
+    width: auto;
+
+
+}
+.First-section  h2 {
+    font-size: 5rem;
+    margin: 10px 0;
+
+}
+.First-section p{
+    font-size: 2rem;
+
+}
+/* About us section */
+.about-main-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem 0 ;
+    
+}
+
+ 
+ .about-sub-div2 h2{ 
+        width: 500px;
+    }
+  
+.about-sub-div2 h2{ 
+    font-size: 30px;
+    
+}
+
+.about-sub-div2 p{
+    color: #787878;
+    margin: 15px 0;
+    
+}
+
+/* This is Service Area */
+
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto ;
+   
+}
+
+.grid-single-item{
+    padding: 50px;
+    text-align: center;
+     
+}
+.imge-size{
+    width: 7rem;   
+   
+}
+.imge-size1{
+   width: 7rem;
+}
+.size-imge{
+    width: 4rem;
+}
+
+/* work Section  */
+.work-single-img{
+    width: auto;
+    inline-size: 150px;
+    size: 100px;
+   
+}
+.testimoinal-p{
+    color:  black !important;
+    margin-top: 5px;
+}
+.content-haeding{
+    font-size: 55px;
+    text-align: center;
+}
+form{
+    margin-left: 30rem;
+    margin-top: 8px;
+}
+ form input  {
+    width: 450px;
+ }
+ form textarea {
+    width: 450px;
+ }
+.submit-btn{
+    width: 140px;
+    height: 35px;
+    background-color:black;
+    color: white;
+    margin-top: 1px;
+      
+}
+.work-single-img{
+    width: 15rem;
+}
+/* this is footer  */
+footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+    height: 3rem;
+}
+footer p{
+    padding-top: 10px;
+}
